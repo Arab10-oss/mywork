@@ -1,0 +1,75 @@
+<!-- Example: snacks_and_beverages.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks & Beverages - Grocery Hub</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="file:///C:/Users/arabd/OneDrive/Desktop/arab/as/ass2/new/ecom.html" class="logo" style="text-decoration: none;"><img src="New folder (2)/grocery-store_17829637.png" style="height: 50px;" alt="">Grocery Hub</a></div>
+            <div class="search-bar" style="margin-right: 20px;">
+                <input type="text" id="search" placeholder="Search products...">
+                <button onclick="searchProducts()">Search</button>
+            </div>
+            <ul>
+                <li><a href="ecom.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="cart-menu">
+                    <a href="#" onclick="toggleCart()">
+                        🛒 <span id="cart-count">0</span>
+                    </a>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="snacks-beverages">
+        <h2>Snacks & Beverages</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/chips.jpeg" alt="Chips">
+                <h3>Chips</h3>
+                <p>₹50/pack</p>
+                <button class="btn add-to-cart" data-name="Tomato" data-price="30">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="images/cokkie.jpeg" alt="Cookies">
+                <h3>Cookies</h3>
+                <p>₹120/box</p>
+                <button class="btn add-to-cart" data-name="Tomato" data-price="30">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="images/download.jpeg" alt="Juice">
+                <h3>Fruit Juice</h3>
+                <p>₹80/bottle</p>
+                <button class="btn add-to-cart" data-name="Tomato" data-price="30">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="images/tea.jpeg" alt="Tea">
+                <h3>Tea</h3>
+                <p>₹150/pack</p>
+                <button class="btn add-to-cart" data-name="Tomato" data-price="30">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="images/cofee.jpeg" alt="Coffee">
+                <h3>Coffee</h3>
+                <p>₹250/pack</p>
+                <button class="btn add-to-cart" data-name="Tomato" data-price="30">Add to Cart</button>
+
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Local Grocery Delivery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
